@@ -25,6 +25,10 @@ Ubuntu packages needed:
 
 Building `riscv-tools` requires GCC >= 4.8 for C++11 support.
 
+FreeBSD packages needed:
+
+	$ sudo pkg install bash gmake gsed autoconf automake autotools curl mpc mpfr gmp gawk bison flex texinfo gperf libtool
+
 # <a name="newlibman"></a>The RISC-V GCC/Newlib Toolchain Installation Manual
 
 This document was authored by [Quan Nguyen](http://ocf.berkeley.edu/~qmn) and is a mirrored version (with slight modifications) of the one found at [Quan's OCF
